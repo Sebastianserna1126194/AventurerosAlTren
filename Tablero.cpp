@@ -1,4 +1,3 @@
-// Archivo fusionado: juego con tablero visual integrado
 #include <iostream>
 #include <vector>
 #include <map>
