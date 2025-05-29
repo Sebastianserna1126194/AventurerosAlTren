@@ -40,13 +40,13 @@ public:
     // Método para completar un trayecto
     bool completarTrayecto(Trayecto &trayecto);
     
-    // Método para calcular la puntuación total
+    // Método para calcular la puntuación total obtenida
     int calcularPuntuacion();
     
     // Método para mostrar las cartas del jugador
     void mostrarCartas();
     
-    // Método para mostrar los trayectos completados
+    // Método para mostrar los trayectos que fueron completados
     void mostrarTrayectosCompletados();
 };
 

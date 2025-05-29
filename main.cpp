@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     cout << "========================================" << endl;
-    cout << "BIENVENIDO AL JUEGO DE TRENES" << endl;
+    cout << "¡BIENVENIDO AL JUEGO AVENTUREROS AL TREN!" << endl;
     cout << "========================================" << endl;
     
     // Preguntamos cuántos jugadores van a jugar
@@ -16,7 +16,7 @@ int main() {
         cin >> numJugadores;
         
         if (numJugadores < 2 || numJugadores > 4) {
-            cout << "El número de jugadores debe estar entre 2 y 4." << endl;
+            cout << "Solo se permiten entre 2 a 4 jugadores." << endl;
         }
     } while (numJugadores < 2 || numJugadores > 4);
     

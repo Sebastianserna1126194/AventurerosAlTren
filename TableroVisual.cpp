@@ -55,7 +55,7 @@ void TableroVisual::inicializar() {
     }
 }
 
-// Marcar una ruta completa (todos sus segmentos) como completada por un jugador
+// Marcar una ruta completa (con todos sus segmentos) como completada por un jugador
 void TableroVisual::marcarRutaCompletada(string origen, string destino, int jugador) {
     // Construimos el identificador del trayecto (tanto en un sentido como en el otro)
     string idTrayecto1 = origen + "-" + destino;
